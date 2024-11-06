@@ -1,0 +1,121 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container{}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.navbar__my-name p{
+    font-weight: bold;
+}
+
+.navbar__resume{}
+
+.navbar__resume .btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:#0D1321;
+    line-height: 20px;
+    font-weight:bold;
+    font-family: "Azeret Mono";
+    background-color: #fff;
+    cursor: pointer;
+}
+
+ /* Banner Styling */
+.hero__bg{
+    background: url(images/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__bg-content{
+    display: block;
+    text-align: center;
+    padding: 80px 200px;
+}
+.hero__bg-content img{
+    width: 200px;
+    height: 200px;
+}
+.hero__bg-content h1{
+    font-size: 48px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    
+}
+.hero__bg-content p{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #0D1321;
+    font-weight:300;
+}
+.hero__bg-content .btn__black{
+    margin-top: 32px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:#fff;
+    line-height: 20px;
+    font-weight:bold;
+    font-family: "Azeret Mono";
+    background-color: #0D1321;
+    cursor: pointer;
+}
+
+/* Why Web Development Styling */
+
+#main{
+    width: 70%;
+    margin:40px auto;
+    background-color: #E7ECFF;
+}
+
+.main__Q{
+    text-align: center;
+    padding: 80px 80px;
+    
+}
+.main__Q h2{
+    font-size: 32px;
+}
+.main__Q p{
+    padding: 32px 0px;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #0D1321;
+    font-weight:300;
+}
+
+/* Design Main Section */
+.main__coding{}
+.main__coding-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255, 100%);
+}
+.main__coding-1--text{
+    width: 40%;
+}
+.main__coding-1--image{
+    width: 40%;
+}
+.main__coding-1--image img{
+    width: 100%;
+}
